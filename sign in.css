@@ -1,0 +1,10 @@
+body{
+    background-image: url("image/80.jpg");
+    background-size:cover;
+    position: relative;
+}
+h1{
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}

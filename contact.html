@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>www.contact.com</title>
+    <link rel="stylesheet" href="contact.com">
+    <style>
+        body{
+             background-image: url("image/45.jpg");
+             background-size:cover;
+             position:relative;
+        }
+h1{
+    color: green;
+}
+p{
+    color: blue;
+}
+/*style the inputs */
+.input{
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+/*style the send button*/
+input[type-send]{
+    color: green;
+    cursor: pointer;
+}
+    </style>
+</head>
+  <body>
+           <h1 style="text-align: center;"> US Contact:</h1>
+           <img src="image/45.jpg" alt="image" width="260" height="0"> 
+        <p>Babcock university, ilishan Remo, Ogun state</p>
+         <a href="09028589617">09028589617</a>
+            <p> We are here to serve you, kindly contact us with request
+                for any additional information, it is our pleasure to hear from you
+            </p>
+            <form action="action.php" method="POST">
+         <label for="Name"><b> Name </b></label>
+         <br><input type="text" placeholder="Name" name="Name"></br>
+         <label for="Email"><b> Email</b></label>
+         <br><input type="email" placeholder="Email" name="Email"></br>
+         <label for="Phonenumber"><b> Phonenumber</b></label>
+         <br><input type="number" placeholder="Phonenumber" name="Phonenumber"></br>
+         <label for="Message"><b> Message </b></label>
+         <br><textarea id="Message" placeholder="Message" name="Message" style="height: 300px"></textarea>
+        <button name="Send" value="Send">Send</button>
+      </form>
+  </body>
+</html>

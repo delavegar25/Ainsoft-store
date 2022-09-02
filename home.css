@@ -1,0 +1,37 @@
+body{
+      background-image: url("image/89.jpg");
+      background-size: cover;
+      position: relative;
+      background-color: blue;
+}
+ h1{
+     color:blueviolet;
+     font-size:x-large;
+ }
+  h2{
+    color: red;
+    font-size:x-large;
+  }
+  p{
+    color: greenyellow;
+    font-size:small;
+  }
+  /*style the inputs */
+.input{
+font-size: 20px;
+width: 100%;
+padding: 12px;
+text-decoration: none;
+color: black;
+}
+  /*style the input button*/
+  input[type-shopnow]{
+    color: blue;
+    cursor: pointer;
+  }
+
+  /*style the sign in button*/
+  input[type-signin]{
+    color: blue;
+    cursor: pointer;
+  }

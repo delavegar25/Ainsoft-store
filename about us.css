@@ -1,0 +1,16 @@
+body{
+    background-image: url("image/21.jpg");
+    background-position: center;
+    padding: 12px;
+}
+h2{
+    color: rgb(11, 12, 8);
+}
+h1{
+    color:violet;
+}
+p{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}

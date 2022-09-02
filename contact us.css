@@ -1,0 +1,24 @@
+body{
+    background-image: url("image/23.jpg");
+    background-position: center;
+    position: relative;
+}
+h1{
+    color: blue;
+}
+p{
+    color: green;
+}
+/*style the inputs */
+.input{
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+/*style the send button*/
+input[type-send]{
+    color: green;
+    cursor: pointer;
+}

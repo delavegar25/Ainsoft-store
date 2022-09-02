@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="project15.css">
+        <style>
+            body{
+        background-image: url("image/1.jpg");
+        background-size: cover;
+        position: relative;
+      }
+      
+/*style the container */
+.container{
+    position: relative;
+    border-radius: 5px;
+    padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input [type=text]
+input [type=password]
+ {
+   width: 100%;
+   padding: 16px;
+   border: none;
+   border-radius: 4px;
+   margin: 12px;
+   opacity: 0.85;
+   display: inline-block;
+   font-size: 17px;
+}
+h1{
+    text-align: center;
+    color: blue;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav{
+    background-color: green;
+    overflow: hidden;
+}
+
+/*style the link in the nav bar*/
+.topnav{
+    float: right;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+  background-color: #ddd;
+  color: blue;
+}
+
+.topnav a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+/*style the submit button */
+input [type-submit]{
+    background-color: #04AA6D;
+    color: yellow;
+    cursor: pointer;
+}
+
+/*style the login button*/
+input [type-login]{
+    background-color: #f1f1f1;
+    color: blue;
+    cursor: pointer;
+    padding: 50px;
+}
+
+
+/*text inside the vertical line*/
+.inner{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+
+/*hide some text on medium and large screens*/
+.hide-md-lg{
+    display: none;
+}
+
+/*bottom-container*/
+.bottom-container{
+    text-align: center;
+    background-color: #666;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.hide-md-lg{
+    display: block;
+    text-align: center;
+}
+span.psw{
+    float: left;
+    color: black;
+}
+feImage{
+    padding: 20px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color:#333;
+}
+        </style>
+        <title>www.AinsoftStore.com</title>
+    </head>
+   <body style="background-image:(image/1.jpg) no-repeat;">
+
+     <div class="row">
+            <div class="top nav" id="myTopnav">
+                <div class="site-navigation-wrapper 
+                site-navigation--has-actions
+                "data-site-navigation id="site-header-nav">
+    
+                <ul class="navmenu  navmenu-depth-1" aria-label="Menu" style="max-width: calc(100% - 69px);">
+                    <li class="navmenu-item navmenu-id-home">
+                        <a class="navmenu-link navmenu-link--active navmenu-item-active"href="register.html">Home</a>
+                    </li>
+                    <li class="navmenu-item navmenu-id-contact">
+                        <a class="navmenu-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="navmenu-link navmenu-id-About Us">
+                        <a class="navmenu-link" href="About Us.html">About Us</a>
+                    </li>
+                    <li class="navmenu-link navmenu-id-Track Shipment">
+                        <a class="navmenu-link" href="trackk ship.html">Track Shipment</a>
+                    </li>
+                  </ul>
+            </div>
+
+              <h1 style="text-align:center">Ainsoft Store</h1>
+          <div class="container"> 
+            <form action="you.php" method="POST">
+                <label> <b> Username </b></label>
+           <br><input type="text" placeholder="username" name="username"></br>
+           <label> <b> Password </b></label>
+           <br><input type="password" placeholder="password" name="password"></br>
+            <button name ="login" type="submit">Login</button>         
+        </div>
+           <div class="container" style background-color="green">
+            <span class="psw"> Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+  </body>
+</html>
+
+
